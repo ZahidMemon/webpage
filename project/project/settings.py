@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
+    'contact',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'webp',  # Replace with your MySQL database name
+        'NAME': 'web',  # Replace with your MySQL database name
         'USER': 'root',      # Replace with your MySQL username
         'PASSWORD': 'root@123456',  # Replace with your MySQL password
         'HOST': 'localhost',          # Or the IP address/hostname of your MySQL server
